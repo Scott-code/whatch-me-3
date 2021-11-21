@@ -56,15 +56,15 @@ toogle.addEventListener("click", function () {
 
 const card = $("#result");
 
-$("#result").on("mousemove", function (t) {
-  let vertical = -($(window).innerWidth() / 2 - t.pageX) / 170,
-    horizontal = ($(window).innerHeight() / 2 - t.pageY) / 170;
+// $("#result").on("mousemove", function (t) {
+//   let vertical = -($(window).innerWidth() / 2 - t.pageX) / 170,
+//     horizontal = ($(window).innerHeight() / 2 - t.pageY) / 170;
 
-  card.attr(
-    "style",
-    "transform: rotateY(" + vertical + "deg) rotateX(" + horizontal + "deg)"
-  );
-});
+//   card.attr(
+//     "style",
+//     "transform: rotateY(" + vertical + "deg) rotateX(" + horizontal + "deg)"
+//   );
+// });
 
 
 
